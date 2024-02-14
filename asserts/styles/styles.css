@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffdead;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #8b4513;
+  color: black;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.chessboard {
+  margin: 0 auto;
+  width: 650px;
+  height: 650px;
+  text-align: center;
+  border: 15px solid #714d38;
+  font-size: 0;
+  padding: 0;
+}
+
+.dark {
+  width: 80px;
+  height: 80px;
+  background-color: #714d38;
+  display: table-cell;
+  vertical-align: baseline;
+  border: 5px solid #714d38;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  background-color: #efddb4;
+  display: table-cell;
+  vertical-align: baseline;
+  border: 5px solid #efddb4;
+}
+
+#check,
+#refresh {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  background: #714d38;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+#check {
+  margin: auto;
+  margin-top: 27px;
+  float: left;
+}
+
+#refresh {
+  margin: auto;
+  margin-top: 25px;
+  float: right;
+}
+
+#check:hover,
+#refresh:hover {
+  background: #8b4513;
+}
+
+.alerts {
+  display: inline;
+}
+
+#alert {
+  display: block;
+  font-size: 18px;
+  color: #008000;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-style: oblique;
+}
+
+#alerterror {
+  display: block;
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 29px;
+  font-style: italic;
+}
